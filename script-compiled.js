@@ -23,6 +23,7 @@ var Stopwatch = function () {
                 miliseconds: 0
             };
             this.print();
+            this.running = false;
         }
     }, {
         key: 'print',

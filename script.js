@@ -11,7 +11,8 @@ class Stopwatch {
             seconds: 0,
             miliseconds: 0
         }
-        this.print()
+            this.print(); 
+            this.running = false; 
     }
     print() {
         this.display.innerText = this.format(this.times);
